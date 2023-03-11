@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-11 10:17:33 am"/>
+        <attribute name="created" value="YW5kcmU7UENBRTsyMDIzLTAzLTExOzEwOjEzOjIwIGFtOzIxMTU="/>
+        <attribute name="edited" value="YW5kcmU7UENBRTsyMDIzLTAzLTExOzEwOjE3OjMzIGFtOzI7MjIzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Project: Multiplication&#13;&#10;Author: Andrea Emili&#13;&#10;Data: 2023/03/11&#13;&#10;Last review: 2023/03/11&#13;&#10;Version: 0.0.1"/>
+            <declare name="a, b, multiplication" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="0"/>
+            <assign variable="multiplication" expression="0"/>
+            <output expression="&quot;Inserisci il primo numero da moltiplicare&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Inserisci il secondo numero da moltiplicare&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="multiplication" expression="a*b"/>
+            <output expression="&quot;Il risultato della moltiplicazione &#232; &quot;&amp;multiplication" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
