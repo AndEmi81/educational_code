@@ -1,0 +1,24 @@
+*.vsidx
+*.lock
+*.sqlite
+*.json
+*.wsuo
+*.db
+*.ipch
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.suo
+*.db-shm
+*.db-wal
+*.opendb
+*.obj
+*.exe
+*.recipe
+*.ilk
+*.log
+*.pdb
+*.tlog
+prj - Somma/Somma di due numeri/x64/Debug/Somma di due numeri.vcxproj.FileListAbsolute.txt
+*.idb
