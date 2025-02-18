@@ -1,3 +1,0 @@
-﻿  Main.cpp
-C:\Users\andre\OneDrive\Workspace\educational_code\prj - Hello World\Hello World\Main.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Hello World.vcxproj -> C:\Users\andre\OneDrive\Workspace\educational_code\prj - Hello World\Hello World\x64\Debug\Hello World.exe
