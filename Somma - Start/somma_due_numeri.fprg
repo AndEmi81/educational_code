@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-11 01:25:58 pm"/>
+        <attribute name="created" value="YW5kcmU7QUU4MV9QQzsyMDIyLTEwLTExOzEyOjU4OjA2IHBtOzIzNDI="/>
+        <attribute name="edited" value="YW5kcmU7QUU4MV9QQzsyMDIyLTEwLTExOzAxOjI1OjU4IHBtOzk7MjQ1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Il programma &#232; l'algoritmo che calcola la somma tra due numeri. &#13;&#10;Chiede in ingresso il primo numero poi il secondo e poi calcola la somma"/>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="somma" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="0"/>
+            <assign variable="num2" expression="0"/>
+            <assign variable="somma" expression="0"/>
+            <output expression="&quot;Inserire il primo numero&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Inserire il secondo numero&quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="somma" expression="num1+num2"/>
+            <output expression="&quot;La somma dei due numeri &#232;&quot;" newline="True"/>
+            <output expression="somma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

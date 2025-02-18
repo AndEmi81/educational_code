@@ -1,5 +1,9 @@
 // SommaQuadratiPiccoli.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Algoritmo: Scrivi un algoritmo e relativo codice C++ che, dati tre numeri, determina la somma dei quadrati più piccoli
+//Procedimento risolutivo:
+//- 1. Algoritmo in Flowgorithm
+//- 2. Codice C++ dell'algoritmo
+
 
 #include <iostream>
 
