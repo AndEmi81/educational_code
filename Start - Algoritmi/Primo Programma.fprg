@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Primo Programma"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-18 12:22:06 "/>
+        <attribute name="created" value="YW5kcmU7QUVQQzsyMDI1LTAyLTE4OyIxMjoyMDoyNiAiOzE5OTE="/>
+        <attribute name="edited" value="YW5kcmU7QUVQQzsyMDI1LTAyLTE4OyIxMjoyMjowNiAiOzE7MjA5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="2025/02/18&#13;&#10;Questo algoritmo fa parte della collana START - Algoritmi EDU"/>
+            <output expression="&quot;Benvenuto!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
