@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alunno18"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-17 09:59:18 "/>
+        <attribute name="created" value="YWx1bm5vMTg7REVTS1RPUC01TkJLVjZCOzIwMjUtMDItMTc7IjA5OjIxOjE3ICI7MzAxMw=="/>
+        <attribute name="edited" value="YWx1bm5vMTg7REVTS1RPUC01TkJLVjZCOzIwMjUtMDItMTc7IjA5OjU5OjE4ICI7MTszMTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, variabile, somma" type="Real" array="False" size=""/>
+            <assign variable="variabile" expression="0"/>
+            <assign variable="somma" expression="0"/>
+            <output expression="&quot;Inserisci il primo numero&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Inserisci il secondo numero&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Inserisci il terzo numero&quot;" newline="True"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <assign variable="variabile" expression="a"/>
+                    <assign variable="a" expression="b"/>
+                    <assign variable="b" expression="variabile"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="b&gt;c">
+                <then>
+                    <assign variable="variabile" expression="b"/>
+                    <assign variable="b" expression="c"/>
+                    <assign variable="c" expression="variabile"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a&gt;b">
+                <then>
+                    <assign variable="variabile" expression="a"/>
+                    <assign variable="a" expression="b"/>
+                    <assign variable="b" expression="variabile"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="somma" expression="(a^2)+(b^2)"/>
+            <output expression="&quot;La somma dei quadrati dei due numeri pi&#249; piccoli &#232; &quot; &amp; somma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
